@@ -1,0 +1,8 @@
+# * text=auto: 这部分告诉 Git 将所有文件视为文本文件，而且使用自动的文本文件属性。这意味着 Git 会尝试自动检测文件的文本属性，并根据需要进行换行符格式的转换。
+# trailing-space: 检测行尾的空格。
+# space-before-tab: 检测是否存在制表符前的空格。
+# -indent-with-non-tab: 不允许使用非制表符进行缩进。
+# tab-in-indent: 检测是否在缩进中使用制表符。
+# tabwidth=2: 设置制表符的宽度为2个空格。
+# windows下暂时无效果
+* text=auto whitespace=trailing-space,space-before-tab,-indent-with-non-tab,tab-in-indent,tabwidth=2
